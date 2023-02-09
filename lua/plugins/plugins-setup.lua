@@ -27,6 +27,7 @@ return require('packer').startup(function(use)
     'nvim-lualine/lualine.nvim', -- 状态栏
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
+  use "christoomey/vim-tmux-navigator" -- 用ctl-hjkl来定位窗口
   use {
     'nvim-tree/nvim-tree.lua',
     requires = {
