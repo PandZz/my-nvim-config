@@ -16,8 +16,7 @@ require("mason-lspconfig").setup({
     "clangd",
     "html",
     "jdtls",
-    "marksman",
-    "pylsp"
+    "marksman"
   },
 })
 
