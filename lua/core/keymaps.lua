@@ -13,3 +13,6 @@ keymap.set("n", "<leader>nh", ":nohl<CT>")
 -- 插件 --
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+-- bufferline
+keymap.set("n", "<A-h>", ":BufferLineCyclePrev<CR>");
+keymap.set("n", "<A-l>", ":BufferLineCycleNext<CR>");
