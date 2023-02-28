@@ -8,7 +8,7 @@ keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- 取消高亮
-keymap.set("n", "<leader>nh", ":nohl<CT>")
+keymap.set("n", "<leader>nh", ":nohl<CR>")
 
 -- 插件 --
 -- nvim-tree
